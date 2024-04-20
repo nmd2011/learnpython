@@ -13,3 +13,8 @@ with col2:
     """
     st.info(content)
 
+content1 = "I created some applications for practice.  Please click the link below or email me with any questions"
+
+st.write(content1)
+
+
