@@ -21,12 +21,21 @@ st.write(content1)
 
 df = pd.read_csv("data.csv", sep=';')
 
-col3, col4 = st.columns(2)
+col3, col4, col5 = st.columns([1.0, 0.5, 1.0])
+
+content2 = "Here are some apps I created"
+st.write(content2)
 
 with col3:
     for index, row in df[:10].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code]({row['url']})")
 
-with col4:
+with col5:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code]({row['url']})")
