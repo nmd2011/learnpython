@@ -2,7 +2,6 @@ import smtplib, ssl  # standard email library
 
 host = 'smtp.gmail.com'
 port = 465
-test = 5655
 subject= "Email subject"
 username = 'fyznitch@gmail.com'
 password = 'xxhndnakhwcmkzrs'
