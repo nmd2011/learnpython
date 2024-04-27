@@ -1,9 +1,9 @@
 import smtplib, ssl  # standard email library
-from test import config
+import config
 
 host = 'smtp.gmail.com'   #default gmail host
 port = 465       #default gmail port
-subject= "Subject subject"
+subject= "Subject Two"
 username = config.username
 password = config.password
 recipient = "fyznitch@gmail.com"
