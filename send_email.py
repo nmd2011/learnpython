@@ -1,10 +1,11 @@
 import smtplib, ssl  # standard email library
+import config
 
 host = 'smtp.gmail.com'   #default gmail host
 port = 465       #default gmail port
-subject= "Email subject"
-username = 'fyznitch@gmail.com'
-password = 'xxhndnakhwcmkzrs'
+subject= "Remove subject"
+username = config.username
+password = config.password
 recipient = "fyznitch@gmail.com"
 message = f"""\
 Subject: {subject}
