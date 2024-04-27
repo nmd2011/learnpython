@@ -3,7 +3,7 @@ from test import config
 
 host = 'smtp.gmail.com'   #default gmail host
 port = 465       #default gmail port
-subject= "Remove subject"
+subject= "Subject subject"
 username = config.username
 password = config.password
 recipient = "fyznitch@gmail.com"
