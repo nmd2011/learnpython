@@ -1,5 +1,5 @@
 import smtplib, ssl  # standard email library
-import config
+from test import config
 
 host = 'smtp.gmail.com'   #default gmail host
 port = 465       #default gmail port
